@@ -5,11 +5,11 @@ class Artist
   attr_reader :songs
   extend Memorable
   @@artists = []
-    
+
     def self.all
       @@artists
     end
-  
+
     def initialize
       super
       @songs = []
